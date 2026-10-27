@@ -1,0 +1,132 @@
+
+
+body {
+    font-family: Arial, sans-serif;
+    background: #0D0D0D;
+    color: #FFFF00;
+    margin: 0;
+    text-align: center;
+}
+
+/* TÍTULO */
+h1 {
+    background: #111111;
+    color: #FFFF00;
+    padding: 30px;
+    margin: 0;
+    text-shadow:
+        0 0 5px #FFFF00,
+        0 0 10px #FFFF00,
+        0 0 20px #FFD700,
+        0 0 40px #FFD700;
+    border-bottom: 2px solid #FFFF00;
+    box-shadow: 0 5px 20px #FFFF0044;
+}
+
+/* SUBTÍTULOS */
+h2 {
+    color: #FFFF00;
+    text-shadow:
+        0 0 5px #FFFF00,
+        0 0 15px #FFD700;
+}
+
+/* PÁRRAFOS */
+p {
+    color: #FFFACD;
+    line-height: 1.7;
+}
+
+/* TARJETAS */
+.tarjeta {
+    background: #151515;
+    border: 2px solid #FFFF00;
+    border-radius: 20px;
+    padding: 25px;
+    margin: 20px auto;
+    max-width: 600px;
+    box-shadow:
+        0 0 5px #FFFF00,
+        0 0 15px #FFFF0066,
+        inset 0 0 10px #FFFF0015;
+    transition: 0.3s ease;
+}
+
+.tarjeta:hover {
+    transform: translateY(-5px);
+    box-shadow:
+        0 0 10px #FFFF00,
+        0 0 25px #FFFF00,
+        0 0 45px #FFD70088;
+}
+
+/* BOTONES */
+button {
+    background: #FFFF00;
+    color: #111111;
+    border: 2px solid #FFFF00;
+    border-radius: 30px;
+    padding: 12px 25px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow:
+        0 0 5px #FFFF00,
+        0 0 15px #FFFF00;
+    transition: 0.3s ease;
+}
+
+button:hover {
+    background: transparent;
+    color: #FFFF00;
+    box-shadow:
+        0 0 10px #FFFF00,
+        0 0 25px #FFFF00,
+        0 0 45px #FFD700;
+    transform: scale(1.05);
+}
+
+/* ENLACES */
+a {
+    color: #FFFF00;
+    text-decoration: none;
+    text-shadow: 0 0 8px #FFFF00;
+}
+
+a:hover {
+    color: #FFFFFF;
+    text-shadow: 0 0 15px #FFFF00;
+}
+
+/* IMÁGENES */
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 15px;
+    border: 2px solid #FFFF00;
+    box-shadow: 0 0 12px #FFFF0088;
+}
+
+/* LISTAS */
+ol, ul {
+    text-align: left;
+    padding: 20px;
+}
+
+/* DISEÑO PARA CELULAR */
+@media (max-width: 600px) {
+    h1 {
+        padding: 20px 10px;
+        font-size: 24px;
+    }
+
+    .tarjeta {
+        margin: 15px;
+        padding: 18px;
+    }
+
+    button {
+        padding: 12px 20px;
+        font-size: 14px;
+    }
+}
